@@ -1,0 +1,279 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: ipmsg - Win32 English--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo".\obj\English/ipmsgeng.res" /i "Src" /i ".\Src" /d "NDEBUG" "\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\ipmsgeng.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3DD.tmp" を作成し、次の内容を記録します
+[
+/nologo /ML /W3 /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "ENGLISH" /Fp".\obj\English/IPMSG.pch" /YX /Fo".\obj\English/" /Fd".\obj\English/" /FD /c 
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\blowfish.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\cfg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\SRC\Growl.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Ipmsg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Logdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Logmng.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Mainwin.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Miscdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Msgmng.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Recvdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Setupdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tapp.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tlist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tregist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Twin.cpp"
+"\\.PSF\HOME\Documents\DownloadedFiles\ipmsg206src\SRC\sjis2u.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3DD.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3DE.tmp" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib winmm.lib Comctl32.lib wsock32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Win32ENG/IPMSG.pdb" /machine:I386 /out:".\Win32ENG/IPMSG.exe" 
+.\obj\English\blowfish.obj
+.\obj\English\cfg.obj
+.\obj\English\Growl.obj
+.\obj\English\Ipmsg.obj
+.\obj\English\Logdlg.obj
+.\obj\English\Logmng.obj
+.\obj\English\Mainwin.obj
+.\obj\English\Miscdlg.obj
+.\obj\English\Msgmng.obj
+.\obj\English\Recvdlg.obj
+.\obj\English\Senddlg.obj
+.\obj\English\Setupdlg.obj
+.\obj\English\share.obj
+.\obj\English\Tapp.obj
+.\obj\English\Tdlg.obj
+.\obj\English\Tlist.obj
+.\obj\English\Tregist.obj
+.\obj\English\Twin.obj
+.\obj\English\ipmsgeng.res
+.\obj\English\sjis2u.obj
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3DE.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+blowfish.cpp
+cfg.cpp
+Growl.cpp
+Ipmsg.cpp
+Logdlg.cpp
+Logmng.cpp
+Mainwin.cpp
+Miscdlg.cpp
+Msgmng.cpp
+Recvdlg.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Recvdlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Senddlg.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Setupdlg.cpp
+share.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp(309) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp(483) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Tapp.cpp
+Tdlg.cpp
+Tlist.cpp
+Tregist.cpp
+Twin.cpp
+sjis2u.cpp
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+IPMSG.exe - ｴﾗｰ 0、警告 6
+<h3>
+--------------------構成: ipmsg - Win32 Japanese--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo".\obj\japanese/ipmsgjpn.res" /i "Src" /i ".\Src" /d "NDEBUG" "\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\ipmsgjpn.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E0.tmp" を作成し、次の内容を記録します
+[
+/nologo /ML /W3 /O1 /Op /Oy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "JAPANESE" /Fp".\obj\japanese/IPMSG.pch" /YX /Fo".\obj\japanese/" /Fd".\obj\japanese/" /FD /c 
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\blowfish.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\cfg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\SRC\Growl.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Ipmsg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Logdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Logmng.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Mainwin.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Miscdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Msgmng.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Recvdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Setupdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tapp.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tlist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tregist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Twin.cpp"
+"\\.PSF\HOME\Documents\DownloadedFiles\ipmsg206src\SRC\sjis2u.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E0.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E1.tmp" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib winmm.lib Comctl32.lib imm32.lib wsock32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Win32JPN/IPMSG.pdb" /machine:I386 /out:".\Win32JPN/IPMSG.exe" 
+.\obj\japanese\blowfish.obj
+.\obj\japanese\cfg.obj
+.\obj\japanese\Growl.obj
+.\obj\japanese\Ipmsg.obj
+.\obj\japanese\Logdlg.obj
+.\obj\japanese\Logmng.obj
+.\obj\japanese\Mainwin.obj
+.\obj\japanese\Miscdlg.obj
+.\obj\japanese\Msgmng.obj
+.\obj\japanese\Recvdlg.obj
+.\obj\japanese\Senddlg.obj
+.\obj\japanese\Setupdlg.obj
+.\obj\japanese\share.obj
+.\obj\japanese\Tapp.obj
+.\obj\japanese\Tdlg.obj
+.\obj\japanese\Tlist.obj
+.\obj\japanese\Tregist.obj
+.\obj\japanese\Twin.obj
+.\obj\japanese\ipmsgjpn.res
+.\obj\japanese\sjis2u.obj
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E1.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+blowfish.cpp
+cfg.cpp
+Growl.cpp
+Ipmsg.cpp
+Logdlg.cpp
+Logmng.cpp
+Mainwin.cpp
+Miscdlg.cpp
+Msgmng.cpp
+Recvdlg.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Recvdlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Senddlg.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Senddlg.cpp(21) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Setupdlg.cpp
+share.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp(309) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\src\share.cpp(483) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Tapp.cpp
+Tdlg.cpp
+Tlist.cpp
+Tregist.cpp
+Twin.cpp
+sjis2u.cpp
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+IPMSG.exe - ｴﾗｰ 0、警告 6
+<h3>
+--------------------構成: ipmsg - Win32 Installer--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo".\obj\install/instjpn.res" /i "Src\Install" /i ".\Src\Install" /d "NDEBUG" "\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\instjpn.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E3.tmp" を作成し、次の内容を記録します
+[
+/nologo /ML /W3 /O1 /D "WIN32" /D "_WINDOWS" /D "JAPANESE" /Fp".\obj\install/IPMSG.pch" /YX /Fo".\obj\install/" /Fd".\obj\install/" /FD /c 
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\SRC\Growl.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\install.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tapp.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tregist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Twin.cpp"
+"\\.PSF\HOME\Documents\DownloadedFiles\ipmsg206src\SRC\sjis2u.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E3.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E4.tmp" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib Comctl32.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Win32JPN/setup.pdb" /machine:I386 /out:".\Win32JPN\setup.exe" 
+.\obj\install\Growl.obj
+.\obj\install\install.obj
+.\obj\install\Tapp.obj
+.\obj\install\Tdlg.obj
+.\obj\install\Tregist.obj
+.\obj\install\Twin.obj
+.\obj\install\instjpn.res
+.\obj\install\sjis2u.obj
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E4.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+Growl.cpp
+install.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\install.cpp(51) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Tapp.cpp
+Tdlg.cpp
+Tregist.cpp
+Twin.cpp
+sjis2u.cpp
+ﾘﾝｸ中...
+LINK : warning LNK4089: "WS2_32.dll" へのすべての参照は /OPT:REF によって廃棄されます
+
+
+
+<h3>結果</h3>
+setup.exe - ｴﾗｰ 0、警告 2
+<h3>
+--------------------構成: ipmsg - Win32 InstallerEng--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo".\obj\installEng/insteng.res" /i "Src\Install" /i ".\Src\Install" /d "NDEBUG" "\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\insteng.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E6.tmp" を作成し、次の内容を記録します
+[
+/nologo /ML /W3 /O1 /D "WIN32" /D "_WINDOWS" /D "ENGLISH" /Fp".\obj\installEng/IPMSG.pch" /YX /Fo".\obj\installEng/" /Fd".\obj\installEng/" /FD /c 
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\SRC\Growl.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\install.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tapp.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tdlg.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Tregist.cpp"
+"\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Twin.cpp"
+"\\.PSF\HOME\Documents\DownloadedFiles\ipmsg206src\SRC\sjis2u.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E6.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E7.tmp" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib Comctl32.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:".\Win32Eng/setup.pdb" /machine:I386 /out:".\Win32Eng\setup.exe" 
+.\obj\installEng\Growl.obj
+.\obj\installEng\install.obj
+.\obj\installEng\Tapp.obj
+.\obj\installEng\Tdlg.obj
+.\obj\installEng\Tregist.obj
+.\obj\installEng\Twin.obj
+.\obj\installEng\insteng.res
+.\obj\installEng\sjis2u.obj
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP3E7.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+Growl.cpp
+install.cpp
+\\.psf\Home\Documents\DownloadedFiles\ipmsg206src\Src\Install\install.cpp(51) : warning C4355: 'this' : ﾍﾞｰｽ ﾒﾝﾊﾞ初期化ﾘｽﾄで使用されました。
+Tapp.cpp
+Tdlg.cpp
+Tregist.cpp
+Twin.cpp
+sjis2u.cpp
+ﾘﾝｸ中...
+LINK : warning LNK4089: "WS2_32.dll" へのすべての参照は /OPT:REF によって廃棄されます
+
+
+
+<h3>結果</h3>
+setup.exe - ｴﾗｰ 0、警告 2
+</pre>
+</body>
+</html>
