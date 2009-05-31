@@ -1573,6 +1573,7 @@ BOOL TMainWin::RecvDlgOpen(MsgBuf *msg)
 		::GNTP_SendAndRecieve(
 		    "GNTP/1.0 REGISTER NONE\r\n"
 		    "Application-Name: IP Messenger\r\n"
+			"Application-Icon: C:\\Program Files\\IpMsg\\IpMsg.png\r\n"
 			"Notifications-Count: 1\r\n"
 			"\r\n"
 			"Notification-Name: Recieve\r\n"

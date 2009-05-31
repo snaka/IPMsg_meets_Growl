@@ -900,6 +900,10 @@ SOURCE=.\SRC\IPMSG.ICO
 
 SOURCE=.\SRC\IPMSGREV.ICO
 # End Source File
+# Begin Source File
+
+SOURCE=.\SRC\INSTALL\SETUP.ICO
+# End Source File
 # End Group
 # End Target
 # End Project
